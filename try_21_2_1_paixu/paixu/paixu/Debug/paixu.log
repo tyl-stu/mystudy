@@ -1,0 +1,18 @@
+﻿生成启动时间为 2021/2/1 20:53:39。
+     1>项目“D:\vs-try\bit_class\try_21_2_1_paixu\paixu\paixu\paixu.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\新--VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt swap_paixu.c
+         swap_paixu.c
+     1>d:\vs-try\bit_class\try_21_2_1_paixu\paixu\paixu\swap_paixu.c(388): warning C4020: “quickSortNor2”: 实参太多
+     1>d:\vs-try\bit_class\try_21_2_1_paixu\paixu\paixu\swap_paixu.c(390): warning C4020: “mergeSort”: 实参太多
+     1>d:\vs-try\bit_class\try_21_2_1_paixu\paixu\paixu\swap_paixu.c(392): warning C4020: “mergeSortNor”: 实参太多
+       Link:
+         D:\新--VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vs-try\bit_class\try_21_2_1_paixu\paixu\Debug\paixu.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\vs-try\bit_class\try_21_2_1_paixu\paixu\Debug\paixu.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vs-try\bit_class\try_21_2_1_paixu\paixu\Debug\paixu.lib" /MACHINE:X86 Debug\queue.obj
+         Debug\seqList.obj
+         Debug\swap_paixu.obj
+         paixu.vcxproj -> D:\vs-try\bit_class\try_21_2_1_paixu\paixu\Debug\paixu.exe
+     1>已完成生成项目“D:\vs-try\bit_class\try_21_2_1_paixu\paixu\paixu\paixu.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.11

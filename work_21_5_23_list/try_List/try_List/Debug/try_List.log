@@ -1,0 +1,30 @@
+﻿生成启动时间为 2021/5/23 17:57:30。
+     1>项目“E:\vs-try\bit_class\work_21_5_23_list\try_List\try_List\try_List.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>e:\vs-try\bit_class\work_21_5_23_list\try_list\try_list\test.cpp(60): warning C4172: 返回局部变量或临时变量的地址
+                 e:\vs-try\bit_class\work_21_5_23_list\try_list\try_list\test.cpp(57): 编译类 模板 成员函数“bite::ListIterator<T,const T &,const T *> &bite::ListIterator<T,const T &,const T *>::operator ++(int)”时
+                 with
+                 [
+                     T=int
+                 ]
+                 e:\vs-try\bit_class\work_21_5_23_list\try_list\try_list\test.cpp(343): 参见对正在编译的函数 模板 实例化“bite::ListIterator<T,const T &,const T *> &bite::ListIterator<T,const T &,const T *>::operator ++(int)”的引用
+                 with
+                 [
+                     T=int
+                 ]
+                 e:\vs-try\bit_class\work_21_5_23_list\try_list\try_list\test.cpp(339): 参见对正在编译的类 模板 实例化“bite::ListIterator<T,const T &,const T *>”的引用
+                 with
+                 [
+                     T=int
+                 ]
+                 e:\vs-try\bit_class\work_21_5_23_list\try_list\try_list\test.cpp(355): 参见对正在编译的函数 模板 实例化“void printList<int>(const bite::list<int> &)”的引用
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vs-try\bit_class\work_21_5_23_list\try_List\Debug\try_List.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\vs-try\bit_class\work_21_5_23_list\try_List\Debug\try_List.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vs-try\bit_class\work_21_5_23_list\try_List\Debug\try_List.lib" /MACHINE:X86 Debug\test.obj
+         try_List.vcxproj -> E:\vs-try\bit_class\work_21_5_23_list\try_List\Debug\try_List.exe
+     1>已完成生成项目“E:\vs-try\bit_class\work_21_5_23_list\try_List\try_List\try_List.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.80
